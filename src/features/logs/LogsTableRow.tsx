@@ -32,6 +32,7 @@ export default function LogsTableRow() {
           <TableCell>00:00</TableCell>
           <TableCell>00:00</TableCell>
           <TableCell>00:00</TableCell>
+          <TableCell>00:00</TableCell>
           <TableCell>
             <LogsMenu />
           </TableCell>

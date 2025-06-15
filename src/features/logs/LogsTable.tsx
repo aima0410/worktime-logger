@@ -34,6 +34,7 @@ export default function LogsTable() {
               <TableHead>Date</TableHead>
               <TableHead>StartTime</TableHead>
               <TableHead>EndTime</TableHead>
+              <TableHead>BreakTime</TableHead>
               <TableHead>WorkingTime</TableHead>
               <TableHead>menu</TableHead>
             </TableRow>
