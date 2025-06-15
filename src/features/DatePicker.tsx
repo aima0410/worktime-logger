@@ -9,7 +9,7 @@ export default function DatePicker() {
     <Popover>
       <PopoverTrigger asChild>
         <Button
-          className="justify-between max-w-[250px] w-[calc(50%-6px)] tracking-[0.05em] text-[#494949] font-normal"
+          className="justify-between max-w-[250px] w-[100%] tracking-[0.05em] text-[#494949] font-normal"
           variant="outline"
         >
           <span>

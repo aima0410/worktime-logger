@@ -13,7 +13,7 @@ import {
 export default function PickupProject() {
   return (
     <Select defaultValue="project1">
-      <SelectTrigger className="cursor-pointer max-w-[250px] w-[calc(50%-8px)] hover:bg-[var(--accent)]">
+      <SelectTrigger className="cursor-pointer max-w-[250px] w-[100%] hover:bg-[var(--accent)]">
         <SelectValue placeholder="すべて" />
       </SelectTrigger>
       <SelectContent>
