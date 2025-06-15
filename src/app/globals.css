@@ -116,7 +116,42 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+* {
+  letter-spacing: 0.04em;
+  /*スクロールバー非表示（IE・Edge）*/
+  -ms-overflow-style: none;
+  /*スクロールバー非表示（Firefox）*/
+  scrollbar-width: none;
+}
+
+/*スクロールバー非表示（Chrome・Safari）*/
+*::-webkit-scrollbar {
+  display: none;
+}
+
+input[type="time"] {
+  position: relative;
+}
+
+input[type="time"]:hover {
+  background-color: var(--accent);
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: calc(75% - 8px);
+  padding: 0;
+  height: 100%;
+  background-position: 92% center;
+  background-size: 18px;
+  cursor: pointer;
+  opacity: 0.4;
 }
