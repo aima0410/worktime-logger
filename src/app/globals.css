@@ -122,18 +122,21 @@
   }
 }
 
-* {
-  letter-spacing: 0.04em;
-  /*スクロールバー非表示（IE・Edge）*/
-  -ms-overflow-style: none;
-  /*スクロールバー非表示（Firefox）*/
-  scrollbar-width: none;
-}
-
 /*スクロールバー非表示（Chrome・Safari）*/
 *::-webkit-scrollbar {
   display: none;
 }
+
+* {
+  -ms-overflow-style: none; /*スクロールバー非表示（IE・Edge）*/
+  scrollbar-width: none; /*スクロールバー非表示（Firefox）*/
+}
+
+html, body {
+  color: #3d3d3d;
+  letter-spacing: 0.05em;
+}
+
 
 input[type="time"] {
   position: relative;

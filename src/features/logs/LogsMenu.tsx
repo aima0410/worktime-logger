@@ -44,7 +44,7 @@ export default function LogsMenu() {
           <DropdownMenuShortcut>⌘E</DropdownMenuShortcut>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
-        <DropdownMenuItem className='text-[#d33737]'>
+        <DropdownMenuItem className='text-[#d33737] data-[highlighted]:text-[#d33737]'>
           delete
           <DropdownMenuShortcut>⌫</DropdownMenuShortcut>
         </DropdownMenuItem>
